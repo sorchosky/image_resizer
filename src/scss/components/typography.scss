@@ -1,0 +1,23 @@
+@import "../helpers/variables";
+
+html {
+	font-size: 62.5%;
+}
+
+h1 {
+	font-family: $header-font;
+	font-size: 2.4em;
+	color: $heading-color;
+}
+
+a {
+	font-family: $font-stack;
+	color: $heading-color;
+	font-size: 1.8rem;
+	align-items: center;
+	display: flex;
+
+	&:hover{
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Proxima-Nova-Regular;
+  src: url(../../fonts/Proxima-Nova-Regular.otf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: Proxima-Nova-Semibold;
+  src: url(../../fonts/Proxima-Nova-Semibold.otf);
+  font-weight: 600; }
+
+.icon {
+  max-width: 1.2em;
+  margin-right: 0.5em; }
+
+ul {
+  list-style-type: none; }
+
+ul#image-list {
+  padding: 0;
+  margin: 0; }
+  ul#image-list li {
+    padding-bottom: 1em; }
+    ul#image-list li:first-child {
+      padding-top: 2em; }
+
+ul.utility__buttons {
+  padding: 0;
+  display: block;
+  text-align: right; }
+
+ul.utility__buttons li {
+  display: inline-block;
+  margin-left: 2em; }
+  ul.utility__buttons li::last-child {
+    margin-left: 0; }
+
+a {
+  padding: 1em 0;
+  color: #17adbc; }
+
+button, a {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-transform: none;
+  outline: none;
+  border: none; }
+
+.button--primary {
+  background-color: #17adbc;
+  color: #fff;
+  font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.8em 3em;
+  font-size: 1.6em;
+  cursor: pointer; }
+
+.button--secondary {
+  background-color: #f2f6f7;
+  color: #aaaaaa;
+  font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 1.6em; }
+  .button--secondary:hover {
+    opacity: 0.5; }

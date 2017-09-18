@@ -1,0 +1,76 @@
+@import "../helpers/variables";
+
+.icon {
+	max-width: 1.2em;
+	margin-right: 0.5em;
+}
+
+// button lists
+
+ul{
+	list-style-type: none;
+}
+
+ul#image-list{
+	padding: 0;
+	margin: 0;
+	li {
+	padding-bottom: 1em;
+	&:first-child{
+		padding-top: 2em;
+	}
+}
+}
+
+ul.utility__buttons{
+	padding: 0;
+	display: block;
+	text-align: right;
+
+}
+
+ul.utility__buttons li{
+	display: inline-block;
+	margin-left: 2em;
+	&::last-child{
+		margin-left: 0;
+	}
+}
+
+a{
+	padding: 1em 0;
+	color: $primary-color;
+}
+
+// Primary button
+button, a{
+	transition: 0.3s ease;
+	cursor: pointer;
+	text-transform: none;
+	outline: none;
+	border: none;
+}
+
+.button--primary{
+	background-color: $primary-color;
+	color: #fff;
+	font-family: $header-font;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	padding: 0.8em 3em;
+	font-size: 1.6em;
+	cursor: pointer;
+}
+
+.button--secondary{
+	background-color: $bg;
+	color: $text-color;
+	font-family: $header-font;
+	box-shadow: none;
+	font-size: 1.6em;
+	
+	&:hover{
+		opacity: 0.5;
+	}
+}

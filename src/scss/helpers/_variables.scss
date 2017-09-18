@@ -1,0 +1,19 @@
+$primary-color: #17adbc;
+$heading-color: #595a5b;
+$text-color: #aaaaaa;
+$bg: #f2f6f7;
+
+@font-face{
+	font-family: Proxima-Nova-Regular;
+	src: url(../../fonts/Proxima-Nova-Regular.otf);
+	font-weight: 400;
+}
+
+@font-face{
+	font-family: Proxima-Nova-Semibold;
+	src: url(../../fonts/Proxima-Nova-Semibold.otf);
+	font-weight: 600;
+}
+
+$header-font: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
+$font-stack: "Proxima-Nova-Regular", helvetica, arial, sans-serif;

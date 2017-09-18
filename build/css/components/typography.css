@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Proxima-Nova-Regular;
+  src: url(../../fonts/Proxima-Nova-Regular.otf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: Proxima-Nova-Semibold;
+  src: url(../../fonts/Proxima-Nova-Semibold.otf);
+  font-weight: 600; }
+
+html {
+  font-size: 62.5%; }
+
+h1 {
+  font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
+  font-size: 2.4em;
+  color: #595a5b; }
+
+a {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  color: #595a5b;
+  font-size: 1.8rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  a:hover {
+    cursor: pointer; }
