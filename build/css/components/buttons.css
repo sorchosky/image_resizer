@@ -12,16 +12,8 @@
   max-width: 1.2em;
   margin-right: 0.5em; }
 
-ul {
-  list-style-type: none; }
-
-ul#image-list {
-  padding: 0;
-  margin: 0; }
-  ul#image-list li {
-    padding-bottom: 1em; }
-    ul#image-list li:first-child {
-      padding-top: 2em; }
+#file_array {
+  padding-top: 1em; }
 
 ul.utility__buttons {
   padding: 0;
@@ -53,7 +45,7 @@ button, a {
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 0.8em 3em;
+  padding: 0.8em 1.75em;
   font-size: 1.6em;
   cursor: pointer; }
 
@@ -63,6 +55,7 @@ button, a {
   font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-size: 1.6em; }
+  font-size: 1.6em;
+  letter-spacing: 0.05em; }
   .button--secondary:hover {
     opacity: 0.5; }

@@ -19,22 +19,71 @@
 
   <body>
 
+    <div class="wrapper">
+
+    <h1>Image Resizer</h1>
+
     <section id="modal">
      <div id="content">
-       <div id="heading">
-         <h1 id="heading-text">Test font</h1>
-         <hr>
-       </div>
-       <div id="main">
-       </div>
+       <section id="add_files">
+         <h2>Add Files</h2>
+         <input id='file_array' type='file' name='files' multiple accept='image/*'>
+       </section>
+
+       <hr>
+
+       <section id="choose_your_size">
+
+         <h2>Choose your size</h2>
+
+         <div class="choose_your_size_div social">
+           <h3>Social Media</h3>
+           <form class="" action="index.html" method="post">
+             <ul>
+               <li><input type="checkbox" name="social_media" value="facebook"> Facebook</li>
+               <li><input type="checkbox" name="social_media" value="twitter"> Twitter</li>
+               <li><input type="checkbox" name="social_media" value="instagram"> Instagram</li>
+             </ul>
+           </form>
+         </div>
+
+         <div class="choose_your_size_div custom">
+           <h3>Custom Size</h3>
+           <p>Enter width and height (in pixels). Click add new size to export multiple sizes. Add a maximum of four custom sizes.</p>
+           <ul class="custom_size_list">
+             <li class="custom_size_list_item">
+                 <form class="custom_size_form" action="index.html" method="post">
+                   <input type="text" name="custom_size" value="width">
+                   <input type="text" name="custom_size" value="height">
+                   <input type="button" name="Clear" value="Delete">
+               </form>
+             </li>
+           </ul>
+
+           <br>
+
+           <a>
+             <img src='img/add.png' srcset='img/add.svg' class='icon'/>
+             Add new size
+           </a>
+
+         </div>
+       </section>
      </div>
 
      <div id="utility">
         <ul class="utility__buttons">
-          <li></li>
+          <li><button class='button--secondary'>RESET</button></li>
+          <li><button class='button--primary' onclick='loadfiles()'>Transform</button></li>
         </ul>
-      </div> 
+      </div>
     </section>
+
+
+    <h6>Copyright © Steve Orchosky 2017. All Rights Reserved</h6>
+
+
+    </div>
 
   </body>
 </html>

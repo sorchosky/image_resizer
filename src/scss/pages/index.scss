@@ -22,10 +22,21 @@ hr{
 
 div#content {
 	background-color: #fff;
-	padding: 2.6em;
+	padding: 1em 3.6em;
 }
 
 div#utility {
 	background-color: $bg;
 	padding: 2.6em;
+}
+
+ul.custom_size_list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+form.custom_size_form {
+	display: inline-block;
 }

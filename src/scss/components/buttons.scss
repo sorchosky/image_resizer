@@ -7,19 +7,8 @@
 
 // button lists
 
-ul{
-	list-style-type: none;
-}
-
-ul#image-list{
-	padding: 0;
-	margin: 0;
-	li {
-	padding-bottom: 1em;
-	&:first-child{
-		padding-top: 2em;
-	}
-}
+#file_array{
+	padding-top: 1em;
 }
 
 ul.utility__buttons{
@@ -58,7 +47,7 @@ button, a{
 	font-weight: 600;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	padding: 0.8em 3em;
+	padding: 0.8em 1.75em;
 	font-size: 1.6em;
 	cursor: pointer;
 }
@@ -69,7 +58,8 @@ button, a{
 	font-family: $header-font;
 	box-shadow: none;
 	font-size: 1.6em;
-	
+	letter-spacing: 0.05em;
+
 	&:hover{
 		opacity: 0.5;
 	}

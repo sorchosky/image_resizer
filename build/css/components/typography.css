@@ -14,7 +14,55 @@ html {
 h1 {
   font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
   font-size: 2.4em;
-  color: #595a5b; }
+  color: #595a5b;
+  font-weight: 600; }
+
+h2 {
+  font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
+  font-size: 1.8em;
+  color: #595a5b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0; }
+
+h3 {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  font-size: 1.6em;
+  color: #595a5b;
+  font-weight: 400; }
+
+h6 {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #aaaaaa;
+  opacity: 0.75; }
+
+div.social ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; }
+
+div.social li {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  padding: 0;
+  padding-right: 1em;
+  display: inline-block;
+  margin: 0;
+  font-size: 1.3em; }
+  div.social li::last-child {
+    padding-right: 0em; }
+
+p {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  color: #aaaaaa;
+  font-size: 1.3em;
+  line-height: 1.3;
+  font-weight: 400; }
 
 a {
   font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;

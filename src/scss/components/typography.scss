@@ -8,6 +8,61 @@ h1 {
 	font-family: $header-font;
 	font-size: 2.4em;
 	color: $heading-color;
+	font-weight: 600;
+}
+
+h2 {
+	font-family: $header-font;
+	font-size: 1.8em;
+	color: $heading-color;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-family: $font-stack;
+	font-size: 1.6em;
+	color: $heading-color;
+	font-weight: 400;
+}
+
+h6 {
+	font-family: $font-stack;
+	font-size: 1em;
+	line-height: 1.3;
+	font-weight: 400;
+	color: $text-color;
+	opacity: 0.75;
+}
+
+div.social ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+div.social li {
+	font-family: $font-stack;
+	padding: 0;
+	padding-right: 1em;
+	&::last-child{
+		padding-right: 0em;
+	}
+	display: inline-block;
+	margin: 0;
+	font-size: 1.3em;
+}
+
+p {
+	font-family: $font-stack;
+	color: $text-color;
+	font-size: 1.3em;
+	line-height: 1.3;
+	font-weight: 400;
 }
 
 a {

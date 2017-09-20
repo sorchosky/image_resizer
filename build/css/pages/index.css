@@ -12,16 +12,8 @@
   max-width: 1.2em;
   margin-right: 0.5em; }
 
-ul {
-  list-style-type: none; }
-
-ul#image-list {
-  padding: 0;
-  margin: 0; }
-  ul#image-list li {
-    padding-bottom: 1em; }
-    ul#image-list li:first-child {
-      padding-top: 2em; }
+#file_array {
+  padding-top: 1em; }
 
 ul.utility__buttons {
   padding: 0;
@@ -53,7 +45,7 @@ button, a {
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 0.8em 3em;
+  padding: 0.8em 1.75em;
   font-size: 1.6em;
   cursor: pointer; }
 
@@ -63,7 +55,8 @@ button, a {
   font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-size: 1.6em; }
+  font-size: 1.6em;
+  letter-spacing: 0.05em; }
   .button--secondary:hover {
     opacity: 0.5; }
 
@@ -83,7 +76,55 @@ html {
 h1 {
   font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
   font-size: 2.4em;
-  color: #595a5b; }
+  color: #595a5b;
+  font-weight: 600; }
+
+h2 {
+  font-family: "Proxima-Nova-Semibold", helvetica, arial, sans-serif;
+  font-size: 1.8em;
+  color: #595a5b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0; }
+
+h3 {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  font-size: 1.6em;
+  color: #595a5b;
+  font-weight: 400; }
+
+h6 {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #aaaaaa;
+  opacity: 0.75; }
+
+div.social ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; }
+
+div.social li {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  padding: 0;
+  padding-right: 1em;
+  display: inline-block;
+  margin: 0;
+  font-size: 1.3em; }
+  div.social li::last-child {
+    padding-right: 0em; }
+
+p {
+  font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
+  color: #aaaaaa;
+  font-size: 1.3em;
+  line-height: 1.3;
+  font-weight: 400; }
 
 a {
   font-family: "Proxima-Nova-Regular", helvetica, arial, sans-serif;
@@ -97,6 +138,17 @@ a {
   display: flex; }
   a:hover {
     cursor: pointer; }
+
+.wrapper {
+  max-width: 72em;
+  margin: 2em auto; }
+
+section#add_files, section#choose_your_size {
+  padding: 3.5em 0;
+  background-color: #fff; }
+
+div.choose_your_size_div {
+  padding: 0.5em 0; }
 
 html {
   background-color: #f2f6f7; }
@@ -112,8 +164,17 @@ hr {
 
 div#content {
   background-color: #fff;
-  padding: 2.6em; }
+  padding: 1em 3.6em; }
 
 div#utility {
   background-color: #f2f6f7;
   padding: 2.6em; }
+
+ul.custom_size_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; }
+
+form.custom_size_form {
+  display: inline-block; }
